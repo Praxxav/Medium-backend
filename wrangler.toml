@@ -3,8 +3,10 @@ name = "backend"
 workers_dev = false
 compatibility_date = "2024-07-26"
  [vars]
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMzllNjYxYTEtYWY2OS00NGFiLWI1YmEtZmJlZGU2YTI4NWY5IiwidGVuYW50X2lkIjoiZGU2ODAzNTc1MzRiMjdlZWZiY2U0MzMzYzJlNDkwODk2MGRiYTljMDgzNTVhNGUwNzBmZTM1OTE3NzAxMGM4ZCIsImludGVybmFsX3NlY3JldCI6IjkwMjcwNWIzLTg1ZmUtNDg2NS1hMzMzLTBkOTRmNTRmNzgyZSJ9.S9r2xKUtcMN4NUCRp4CLhwrvHfLQf9YGOFO9wpCUK_0"
-JWT_SECRET = "praxav"
+ //enter your connection pool url prisma accelereate url  
+DATABASE_URL=""
+// enter jwt secret key below for your app
+JWT_SECRET = ""
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
